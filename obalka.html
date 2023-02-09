@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Obálka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body_obalka">
+    <div class="container_obalka">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Drahá Lásko.</strong>
+                        <p>
+                            Toto bude náš tretí Valentín,<br>
+                            ktorý oslávime spolu,
+                            a tak sa ťa chcem opýtať
+                            jednu otázku:<br>
+                            <b><i>Budeš mojou <span>Valentínkou?</span> 💝</i></b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
