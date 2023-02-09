@@ -247,3 +247,12 @@ h6 {
 .nie span {
     color: red;
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+       scale: 200%; 
+    }
+    .laska a, .nie a, .odpustis a, .dalej {
+        font-size: 50px;
+    }
+}
